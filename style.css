@@ -25,6 +25,13 @@ body{
 }
 
 /* Navbar Styles */
+.mngheader{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
 .navbar{padding: 0rem 4rem;}
 .navbar-top{padding: 0rem 4rem;}
 .navbar-bottom .navbar-brand,.navbar-bottom .nav-item{padding: 0.3rem 0}
