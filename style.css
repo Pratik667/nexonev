@@ -1,0 +1,52 @@
+
+    @font-face {
+        font-family: UniNeue-HeavyItalic;
+        src: url("assets/unineue/UniNeue-HeavyItalic.otf") format("opentype");
+    }
+    @font-face {
+        font-family: UniNeue-Light;
+        src: url("assets/unineue/UniNeue-Light.otf") format("opentype");
+    }
+*{
+    font-family: UniNeue-Light;
+}
+/* Color Global Classes */
+.bg-extradark{
+    background-color: #222;
+}
+.bg-blue{
+    background-color: #00adba;
+}
+.text-blue{
+    color: #00adba;
+}
+
+/* Navbar Styles */
+.navbar{padding: 0rem 4rem;}
+.navbar-top{padding: 0rem 4rem;}
+.navbar-bottom .navbar-brand,.navbar-bottom .nav-item{padding: 0.3rem 0}
+.nav-link{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navbar-expand-lg .navbar-nav.mx-auto .nav-item {
+    padding-right: 30px;
+    padding-left: 0;
+}
+.bg-blue .nav-item{
+    font-size: 17px;    
+}
+.bg-blue .nav-item:first-child{border-right: 2px solid #0088a0;
+    transition: all .5s ease;}
+.navbar-bottom .bg-blue .nav-item{padding: 0.3rem 0.7rem}
+.navbar-top .nav-item{
+    padding-right: 30px;
+}
+.navbar-top .nav-link{
+    font-size: 14px;
+    color: #222;
+    font-weight:bolder;
+}
+.navi-icon{    margin-right: 10px;}

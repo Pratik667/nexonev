@@ -1,0 +1,34 @@
+@media only screen and (max-width: 960px) {
+    .navbar-top {
+        display: none;
+    }
+    .bg-blue{
+        background: unset;
+    }
+ 
+    .bg-blue .nav-item:first-child {
+        border-right: none;
+    }
+    .navbar-nav, .nav-item{
+        text-align:center;
+        padding:auto;
+        border-bottom: 1px solid grey;
+        font-size: 15px;
+    }
+    .navbar-expand-lg .navbar-nav.mx-auto .nav-item{
+        padding-right:0;
+    }
+    
+}
+@media only screen and (max-width: 575px) {
+    .navbar-bottom .navbar-brand {
+        max-width: 70%;
+    }
+    img.d-inline-block.align-top.nav-logo {
+        max-width: 250px;
+    }
+    .navbar {
+        padding: 0rem 1rem;
+    }
+    
+}
